@@ -5,7 +5,16 @@
   ],
   "exclude": [
     "node_modules",
-    "build"
+    "build",
+    "app/Controllers/Http/1SoapsController.ts",
+    "app/Controllers/Http/1231SoapsController.ts",
+    "app/Controllers/Http/2SoapsController.ts_",
+    "app/Controllers/Http/_qSoapsController.ts",
+    "app/Controllers/Http/6Mayis2026EFaturasController.ts",
+    "app/Controllers/Http/6Mayis2026EarsivsController.ts",
+    "app/Controllers/Http/____GibsController.ts",
+    "app/Controllers/Http/GibsController.ts.save",
+    "app/Controllers/Http/GibsController.ts.save.1"
   ],
   "compilerOptions": {
     "outDir": "build",

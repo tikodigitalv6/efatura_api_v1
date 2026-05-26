@@ -8,7 +8,6 @@ import axios from 'axios';
 const extract = require('extract-zip')
 var convert = require('xml-js');
 var replaceall = require("replaceall");
-import AWS from 'aws-sdk'
 import Mail from '@ioc:Adonis/Addons/Mail'
 const fs = require('fs');
 import eArsivXml from './xmlParser';
@@ -22,22 +21,21 @@ import Env from '@ioc:Adonis/Core/Env'
 var utf8 = require('utf8');
 var base64 = require('base-64');
 
-AWS.config.update({
-  region: 'eu-central-1'
-});
+// AWS S3/SQS kaldirildi - DigitalOcean Spaces'e gecildi (2026-05-27).
+// Mevcut s3.upload(...) ve sqs.sendMessage(...) cagrilari NO-OP'a baglandi
+// ki callback chain'leri bozulmasin. Tum upload yolu artik DigitalOcean.
+const s3: any = {
+    upload: (_params: any, callback?: any) => {
+        if (typeof callback === 'function') callback(null, { Location: '' });
+        return { promise: () => Promise.resolve({ Location: '' }) };
+    }
+};
+const sqs: any = {
+    sendMessage: (_params: any) => ({
+        promise: () => Promise.resolve({})
+    })
+};
 
-// Create an SQS service object
-var sqs = new AWS.SQS({
-  apiVersion: '2012-11-05',
-  accessKeyId: process.env.AWS_ACCESS_KEY || "",
-  secretAccessKey: process.env.AWS_SECRET_KEY || ""
-});
-
-
-const s3 = new AWS.S3({
-  accessKeyId: process.env.AWS_ACCESS_KEY || "",
-  secretAccessKey: process.env.AWS_SECRET_KEY || ""
-});
 
 export default class SoapsController {
 

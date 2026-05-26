@@ -10,7 +10,6 @@ import type {
   const extract = require('extract-zip')
   var convert = require('xml-js');
   var replaceall = require("replaceall");
-  import AWS from 'aws-sdk'
   const fs = require('fs');
   import eAxml from "./xmlEarsiv";
   import eFxml from './xmlEfatura';
@@ -7390,21 +7389,21 @@ import type {
   
   </xsl:stylesheet>`;
   
-  AWS.config.update({
-	region: 'eu-central-1'
-  });
-  
-  // Create an SQS service object
-  var sqs = new AWS.SQS({
-	apiVersion: '2012-11-05',
-	accessKeyId: process.env.AWS_ACCESS_KEY || "",
-	secretAccessKey: process.env.AWS_SECRET_KEY || ""
-  });
-  
-  const s3 = new AWS.S3({
-	accessKeyId: process.env.AWS_ACCESS_KEY || "",
-	secretAccessKey: process.env.AWS_SECRET_KEY || ""
-  });
+  // AWS S3/SQS kaldirildi - DigitalOcean Spaces'e gecildi (2026-05-27).
+// Mevcut s3.upload(...) ve sqs.sendMessage(...) cagrilari NO-OP'a baglandi
+// ki callback chain'leri bozulmasin. Tum upload yolu artik DigitalOcean.
+const s3: any = {
+    upload: (_params: any, callback?: any) => {
+        if (typeof callback === 'function') callback(null, { Location: '' });
+        return { promise: () => Promise.resolve({ Location: '' }) };
+    }
+};
+const sqs: any = {
+    sendMessage: (_params: any) => ({
+        promise: () => Promise.resolve({})
+    })
+};
+
   
   export default class EFaturasController {
   
