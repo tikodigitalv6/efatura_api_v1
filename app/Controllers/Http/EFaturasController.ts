@@ -7796,7 +7796,7 @@ const sqs: any = {
 			<cbc:BuildingName/>
 			<cbc:BuildingNumber/>
 			<cbc:CitySubdivisionName>${this.xmlEscape(all.AcpCitySubdivisionName)}</cbc:CitySubdivisionName>
-			<cbc:CityName></cbc:CityName>
+			<cbc:CityName>${this.xmlEscape(all.AcpCityName)}</cbc:CityName>
 			<cbc:PostalZone />
 			<cbc:Region/>
 			<cac:Country>
