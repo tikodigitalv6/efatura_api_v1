@@ -194,3 +194,22 @@ Route.post('/getUserFull','GibsController.get_user_izi')
 
 
 Route.post('/faturaNoGetir','EFaturasController.faturaNoGetir')
+
+
+import { readFileSync } from "fs"
+import { join } from "path"
+
+Route.get("/version", async () => {
+    const candidatePaths = [
+        join(__dirname, "..", "version.json"),
+        join(__dirname, "..", "build", "version.json"),
+        join(process.cwd(), "version.json"),
+        join(process.cwd(), "build", "version.json"),
+    ]
+    for (const p of candidatePaths) {
+        try {
+            return JSON.parse(readFileSync(p, "utf-8"))
+        } catch {}
+    }
+    return { error: "version.json bulunamadi (build sirasinda postbuild calismadi mi?)", checked: candidatePaths }
+})

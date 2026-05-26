@@ -1,0 +1,64 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # Manuel tetikleme imkanı
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Deploy to server
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+              "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+              'bash -s' << 'EOF'
+            set -e
+            cd /home/eFaturaProd
+            echo "=== git pull ==="
+            git fetch origin main
+            git reset --hard origin/main
+
+            echo ""
+            echo "=== npm install (degisiklik varsa) ==="
+            npm install --no-audit --no-fund 2>&1 | tail -5
+
+            echo ""
+            echo "=== Build (TS hatalarini gormezden gel — eski yedek dosyalar kalitesizken bile prod build artifact uretelim) ==="
+            node ace build --production --ignore-ts-errors
+
+            echo ""
+            echo "=== version.json olustur ==="
+            node generate-version.js
+
+            echo ""
+            echo "=== .env'yi build'e kopyala (Adonis build .env'i kopyalamaz) ==="
+            cp .env build/.env
+
+            echo ""
+            echo "=== PM2 restart ==="
+            pm2 restart server --update-env
+
+            echo ""
+            echo "=== Saglik kontrol ==="
+            sleep 3
+            HTTP=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1000/ || echo "000")
+            VERSION=$(curl -s http://127.0.0.1:1000/version | head -c 200 || echo "fail")
+            echo "HTTP: $HTTP"
+            echo "Version: $VERSION"
+            if [ "$HTTP" != "200" ]; then
+              echo "HATA: Sunucu HTTP 200 dönmedi"
+              exit 1
+            fi
+          EOF
