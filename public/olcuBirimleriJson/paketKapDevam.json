@@ -1,0 +1,36 @@
+[
+{ "name": "Masraflar ve Navlun / Cost and Freight", "code": "CFR" },
+{
+  "name": "Masraflar, Sigorta ve Navlun / Cost,İnsurance And Freight",
+  "code": "CIF"
+},
+{
+  "name": "Taşıma ve Sigorta Ödenmiş Olarak / Carriage and Insured Paid To",
+  "code": "CIP"
+},
+{ "name": "Taşıma Ödenmiş Olarak / Carriage Paid To", "code": "CPT" },
+{ "name": "Sınırda Teslim / Delivered At Frontier", "code": "DAF" },
+{ "name": "Belirlenen Yerde Teslim / Delivered At Place", "code": "DAP" },
+{ "name": "Terminalde Teslim / Delivered At Terminal", "code": "DAT" },
+{
+  "name": "Gümrük Vergileri Ödenmiş Olarak / Delivered Duty Paid",
+  "code": "DDP"
+},
+{
+  "name": "Gümrük Resmi Ödenmemiş Olarak Teslim / Delivered Duty Unpaid",
+  "code": "DDU"
+},
+{
+  "name": "Rıhtımda Teslim (Gümrük Vergi ve Harçları Ödenmiş Olarak )/Delivered Ex Quay",
+  "code": "DEQ"
+},
+{ "name": "Gemide Teslim / Delivered Ex Ship", "code": "DES" },
+{ "name": "İşyerinde Teslim / Ex Works", "code": "EXW" },
+{
+  "name": "Gemi Doğrultusunda Masrafsız / Free Alongside Ship ( FAS)",
+  "code": "FAS"
+},
+{ "name": "Taşıyıcıya Masrafsız / Free Carrier", "code": "FCA" },
+{ "name": "Gemide Masrafsız / Free On Board", "code": "FOB" }
+
+]

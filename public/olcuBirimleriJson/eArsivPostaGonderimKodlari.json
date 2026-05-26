@@ -1,0 +1,18 @@
+[
+  {
+    "status_code": 100,
+    "status_desc": "HENÜZ İŞLENMEDİ"
+  },
+  {
+    "status_code": 110,
+    "status_desc": "İŞLENİYOR"
+  },
+  {
+    "status_code": 120,
+    "status_desc": "İŞLENDİ"
+  },
+  {
+    "status_code": 130,
+    "status_desc": "E-MAIL GÖNDERİM SONLANDI"
+  }
+]

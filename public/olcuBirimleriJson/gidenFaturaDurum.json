@@ -1,0 +1,122 @@
+[
+    {
+      "status_code": 100,
+      "status_statement": "DURUM HENÜZ GÜNCELLENMEDİ",
+      "status_substatus": "LOAD_SUCCEED",
+      "action_to_taken": "Durum sorgulanması yapmaya devam edilecek"
+    },
+    {
+      "status_code": 101,
+      "status_statement": "KUYRUĞA EKLENDİ",
+      "status_substatus": "LOAD_SUCCEED",
+      "action_to_taken": "Fatura Yükleme - Başarılı"
+    },
+    {
+      "status_code": 102,
+      "status_statement": "TASLAK İŞLENİYOR",
+      "status_substatus": "LOAD_PROCESSING",
+      "action_to_taken": "Belge İşleniyor"
+    },
+    {
+      "status_code": 103,
+      "status_statement": "PAKETLENİYOR",
+      "status_substatus": "PACKAGE_PROCESSING",
+      "action_to_taken": "Belge GİB'e Göndermek İçin Zarflanıyor"
+    },
+    {
+      "status_code": 104,
+      "status_statement": "PAKETLENDİ",
+      "status_substatus": "PACKAGE_SUCCEED",
+      "action_to_taken": "Belge Zarflandı GİB'e Gönderilecek"
+    },
+    {
+      "status_code": 105,
+      "status_statement": "PAKETLEME HATASI",
+      "status_substatus": "PACKAGE_FAILED",
+      "action_to_taken": "Belge Zarflanırken Hata Oluştu. Tekrar Denenecektir."
+    },
+    {
+      "status_code": 106,
+      "status_statement": "İMZALANIYOR",
+      "status_substatus": "SIGN_PROCESSING",
+      "action_to_taken": "Belge İmzalanıyor"
+    },
+    {
+      "status_code": 107,
+      "status_statement": "İMZALANDI\"",
+      "status_substatus": "SIGN_SUCCEED",
+      "action_to_taken": "Belge İmzalandı"
+    },
+    {
+      "status_code": 109,
+      "status_statement": "GİB'DEN YANIT BEKLİYOR",
+      "status_substatus": "SEND_WAIT_GIB_RESPONSE",
+      "action_to_taken": "Belge GİB'e Gönderildi"
+    },
+    {
+      "status_code": 110,
+      "status_statement": "ALICIDAN YANIT BEKLİYOR",
+      "status_substatus": "SEND_WAIT_SYSTEM_RESPONSE",
+      "action_to_taken": "Belge Alıcıya Başarıyla Ulaştırıldı. Sistem Yanıtı Bekliyor."
+    },
+    {
+      "status_code": 111,
+      "status_statement": "ALICIDAN ONAY BEKLİYOR",
+      "status_substatus": "SEND_WAIT_APPLICATION_RESPONSE",
+      "action_to_taken": "Ticari Belge Alıcıdan Onay Bekliyor"
+    },
+    {
+      "status_code": 112,
+      "status_statement": "KABUL EDİLDİ",
+      "status_substatus": "ACCEPTED_SUCCEED",
+      "action_to_taken": "Belge Kabul Edildi"
+    },
+    {
+      "status_code": 120,
+      "status_statement": "RET EDİLDİ",
+      "status_substatus": "REJECTED_SUCCEED",
+      "action_to_taken": "Belge Ret Edildi"
+    },
+    {
+      "status_code": 134,
+      "status_statement": "ZAMAN AŞIMI OLUŞTU",
+      "status_substatus": "SEND_TIMEOUT",
+      "action_to_taken": "Belge GİB'e Gönderilirken Zaman Aşımına Uğradı."
+    },
+    {
+      "status_code": 135,
+      "status_statement": "GÖNDERİLİYOR",
+      "status_substatus": "SEND_PROCESSING",
+      "action_to_taken": "Belge GİB'e Gönderiliyor"
+    },
+    {
+      "status_code": 136,
+      "status_statement": "GÖNDERME İŞLEMİ BAŞARISIZ",
+      "status_substatus": "SEND_FAILED",
+      "action_to_taken": "Belge GİB'e Gönderilirken Hata Oluştu"
+    },
+    {
+      "status_code": 137,
+      "status_statement": "GÖNDERİLDİ",
+      "status_substatus": "SEND_SUCCEED",
+      "action_to_taken": "Belge GİB'e Gönderildi"
+    },
+    {
+      "status_code": 139,
+      "status_statement": "OTOMATİK GÖNDERİM HATASI",
+      "status_substatus": "AUTO_FAILED",
+      "action_to_taken": "Otomatik Gönderim Hatası"
+    },
+    {
+      "status_code": 140,
+      "status_statement": "FATURA NUMARASI ATANDI",
+      "status_substatus": "LOAD_ID_ASSIGNED",
+      "action_to_taken": "Belge Numarası Atandı"
+    },
+    {
+      "status_code": 141,
+      "status_statement": "FATURA NUMARASI ATANMA BEKLENİYOR",
+      "status_substatus": "LOAD_WAIT_ID_ASSIGNED",
+      "action_to_taken": "Belge Numarası Atandı"
+    }
+   ]

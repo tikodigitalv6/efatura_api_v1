@@ -1,0 +1,311 @@
+[
+    {
+      "code": "601",
+      "name": "601 - Yapım işleri ile bu işlerle birlikte ifa edilen mühendislik",
+      "oran": 40
+    },
+    {
+      "code": "602",
+      "name": "602 - Etüt, plan-proje, danışmanlık, denetim vb",
+      "oran": 90
+    },
+    {
+      "code": "603",
+      "name": "603 - Makine, teçhizat, demirbaş ve taşitlara ait tadil, bakım, onarım",
+      "oran": 70
+    },
+    {
+      "code": "604",
+      "name": "604 - Yemek servis hizmeti",
+      "oran": 50
+    },
+    {
+      "code": "605",
+      "name": "605 - Organizasyon hizmeti",
+      "oran": 50
+    },
+    {
+      "code": "606",
+      "name": "606 - İşgücü temin hizmetleri",
+      "oran": 90
+    },
+    {
+      "code": "607",
+      "name": "607 - Özel güvenlik hizmeti",
+      "oran": 90
+    },
+    {
+      "code": "608",
+      "name": "608 - Yapı denetim hizmetleri",
+      "oran": 90
+    },
+    {
+      "code": "609",
+      "name": "609 - Fason olarak yaptirilan tekstil ve konfeksiyon işleri, çanta ve ayakkabı dikim işleri ve bu işlere aracılık hizmetleri",
+      "oran": 70
+    },
+    {
+      "code": "610",
+      "name": "610 - Turistik mağazalara verilen müşteri bulma/ götürme hizmetleri",
+      "oran": 90
+    },
+    {
+      "code": "611",
+      "name": "611 - Spor kulüplerinin yayın, reklam ve isim hakkı gelirlerine konu işlemleri",
+      "oran": 90
+    },
+    {
+      "code": "612",
+      "name": "612 - Temizlik hizmeti",
+      "oran": 90
+    },
+    {
+      "code": "613",
+      "name": "613 - Çevre ve bahçe bakım hizmetleri",
+      "oran": 90
+    },
+    {
+      "code": "614",
+      "name": "614 - Servis taşımacıliğı",
+      "oran": 50
+    },
+    {
+      "code": "615",
+      "name": "615 - Her türlü baskı ve basim hizmetleri",
+      "oran": 70
+    },
+    {
+      "code": "616",
+      "name": "616 - 5018 sayili kanuna ekli cetvellerdeki idare,kurum ve kuruşlara yapılan diğer hizmetler.",
+      "oran": 50
+    },
+    {
+      "code": "617 - Ex",
+      "name": "617 - (01.04.2020 Öncesi) Hurda metalden elde edilen külçe teslimleri",
+      "oran": 50,
+      "sil": 1
+    },
+    {
+      "code": "617",
+      "name": "617 - Hurda metalden elde edilen külçe teslimleri",
+      "oran": 70
+    },
+    {
+      "code": "618 - Ex",
+      "name": "618 - (01.04.2020 Öncesi) Hurda metalden elde edilenler dışındaki bakir, çinko ve alüminyum külçe teslimleri ",
+      "oran": 50,
+      "sil": 1
+    },
+    {
+      "code": "618",
+      "name": "618 - Hurda metalden elde edilenler dışındaki bakir, çinko ve alüminyum külçe teslimleri",
+      "oran": 70
+    },
+    {
+      "code": "619 - Ex",
+      "name": "619 - (01.04.2020 Öncesi) Bakir, çinko ve alüminyum ürünlerinin teslimi",
+      "oran": 50,
+      "sil": 1
+    },
+    {
+      "code": "619",
+      "name": "619 - Bakir, çinko ve alüminyum ürünlerinin teslimi",
+      "oran": 70
+    },
+    {
+      "code": "620 - Ex",
+      "name": "620 - (01.04.2020 Öncesi) istisnadan vazgeçenlerin hurda ve atık teslimi",
+      "oran": 50,
+      "sil": 1
+    },
+    {
+      "code": "620",
+      "name": "620 - istisnadan vazgeçenlerin hurda ve atık teslimi",
+      "oran": 70
+    },
+    {
+      "code": "621",
+      "name": "621 - Metal, plastik, lastik, kauçuk, kâğit ve cam hurda ve atıklardan elde edilen hammadde teslimi ",
+      "oran": 90
+    },
+    {
+      "code": "622",
+      "name": "622 - Pamuk, tiftik, yün ve yapaği ile ham post ve deri teslimleri",
+      "oran": 90
+    },
+    {
+      "code": "623",
+      "name": "623 - Ağaç ve orman ürünleri teslimi",
+      "oran": 50
+    },
+    {
+      "code": "650",
+      "name": "650 - Diğer",
+      "oran": 0
+    },
+    {
+      "code": "601-Ex",
+      "name": "601 - (01.03.2021 Öncesi) Yapım İşleri ile Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve Etüt-Proje Hizmetleri",
+      "oran": 30
+    },
+    {
+      "code": "603-Ex",
+      "name": "603 - (01.03.2021 Öncesi) Makine, Teçhizat, Demirbaş ve Taşıtlara Ait Tadil, Bakım ve Onarım Hizmetleri",
+      "oran": 50
+    },
+    {
+      "code": "609-Ex",
+      "name": "609 - (01.03.2021 Öncesi) Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı Dikim İşleri ve Bu İşlere Aracılık Hizmetleri",
+      "oran": 50
+    },
+    {
+      "code": "612-Ex",
+      "name": "612 - (01.03.2021 Öncesi) Temizlik Hizmeti",
+      "oran": 70
+    },
+    {
+      "code": "613-Ex",
+      "name": "613 - (01.03.2021 Öncesi) Çevre, Bahçe ve Bakım Hizmetleri",
+      "oran": 70
+    },
+    {
+      "code": "615-Ex",
+      "name": "615 - (01.03.2021 Öncesi) Her Türlü Baskı ve Basım Hizmetleri",
+      "oran": 50
+    },
+    {
+      "code": "624",
+      "name": "624 - Yük Taşımacılığı Hizmeti",
+      "oran": 20
+    },
+    {
+      "code": "625",
+      "name": "625 - Ticari Reklam Hizmetleri",
+      "oran": 30
+    },
+    {
+      "code": "626",
+      "name": "626 - Diğer Teslimler",
+      "oran": 20
+    },
+    {
+      "code": "627",
+      "name": "627 - Demir-Çelik Ürünlerinin Teslimi",
+      "oran": 50
+    },
+    {
+      "code": "801",
+      "name": "801 - Yapım İşleri ile Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve Etüt-Proje Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "802",
+      "name": "802 - Etüt, Plan-Proje, Danışmanlık, Denetim ve Benzeri Hizmetler",
+      "oran": 100
+    },
+    {
+      "code": "803",
+      "name": "803 - Makine, Teçhizat, Demirbaş ve Taşıtlara Ait Tadil, Bakım ve Onarım Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "804",
+      "name": "804 - Yemek Servis Hizmeti",
+      "oran": 100
+    },
+    {
+      "code": "805",
+      "name": "805 - Organizasyon Hizmeti",
+      "oran": 100
+    },
+    {
+      "code": "806",
+      "name": "806 - İşgücü Temin Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "807",
+      "name": "807 - Özel Güvenlik Hizmeti",
+      "oran": 100
+    },
+    {
+      "code": "808",
+      "name": "808 - Yapı Denetim Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "809",
+      "name": "809 - Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı Dikim İşleri ve Bu İşlere Aracılık Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "810",
+      "name": "810 - Turistik Mağazalara Verilen Müşteri Bulma/ Götürme Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "811",
+      "name": "811 - Spor Kulüplerinin Yayın, Reklâm ve İsim Hakkı Gelirlerine Konu İşlemleri",
+      "oran": 100
+    },
+    {
+      "code": "812",
+      "name": "812 - Temizlik Hizmeti",
+      "oran": 100
+    },
+    {
+      "code": "813",
+      "name": "813 - Çevreve Bahçe Bakım Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "814",
+      "name": "814 - Servis Taşımacılığı Hizmeti",
+      "oran": 100
+    },
+    {
+      "code": "815",
+      "name": "815 - Her Türlü Baskı ve Basım Hizmetleri",
+      "oran": 100
+    },
+    {
+      "code": "816",
+      "name": "816 - Hurda Metalden Elde Edilen Külçe Teslimleri",
+      "oran": 100
+    },
+    {
+      "code": "817",
+      "name": "817 - Hurda Metalden Elde Edilenler Dışındaki Bakır, Çinko, Demir Çelik, Alüminyum ve Kurşun Külçe Teslimi",
+      "oran": 100
+    },
+    {
+      "code": "818",
+      "name": "818 - Bakır, Çinko, Alüminyum ve Kurşun Ürünlerinin Teslimi",
+      "oran": 100
+    },
+    {
+      "code": "819",
+      "name": "819 - İstisnadan Vazgeçenlerin Hurda ve Atık Teslimi",
+      "oran": 100
+    },
+    {
+      "code": "820",
+      "name": "820 - Metal, Plastik, Lastik, Kauçuk, Kâğıt ve Cam Hurda ve Atıklardan Elde Edilen Hammadde Teslimi",
+      "oran": 100
+    },
+    {
+      "code": "821",
+      "name": "821 - Pamuk, Tiftik, Yün ve Yapağı İle Ham Post ve Deri Teslimleri",
+      "oran": 100
+    },
+    {
+      "code": "822",
+      "name": "822 - Ağaç ve Orman Ürünleri Teslimi",
+      "oran": 100
+    },
+    {
+      "code": "825",
+      "name": "825 - Demir-Çelik Ürünlerinin Teslimi",
+      "oran": 100
+    }
+  ]

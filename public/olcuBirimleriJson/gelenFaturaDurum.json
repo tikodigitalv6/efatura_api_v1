@@ -1,0 +1,80 @@
+[
+    {
+      "status_code": 133,
+      "status_statement": "ALINDI",
+      "status_substatus": "RECEIVE_SUCCEED",
+      "action_to_taken": "Temel fatura alındı"
+    },
+    {
+      "status_code": 132,
+      "status_statement": "ALINDI",
+      "status_substatus": "RECEIVE_WAIT_APPLICATION_RESPONSE",
+      "action_to_taken": "Ticari Fatura yanıt bekliyor"
+    },
+    {
+      "status_code": 134,
+      "status_statement": "ZAMAN AŞIMI OLUŞTU",
+      "status_substatus": "ACCEPT/REJECT_TIMEOUT",
+      "action_to_taken": "İŞLEM SİSTEM TARAFINDAN OTOMATİK TEKRARLANCAKTIR"
+    },
+    {
+      "status_code": 122,
+      "status_statement": "KABUL EDİLDİ",
+      "status_substatus": "ACCEPTED_SUCCEED",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 123,
+      "status_statement": "KABUL İŞLENİYOR",
+      "status_substatus": "ACCEPTED_PROCESSING",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 124,
+      "status_statement": "KABUL GİBDEN YANIT BEKLİYOR",
+      "status_substatus": "ACCEPT_GIB_RESPONSE",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 125,
+      "status_statement": "KABUL ALICIDAN YANIT BEKLİYOR",
+      "status_substatus": "ACCEPT_WAIT_SYSTEM_RESPONSE",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 126,
+      "status_statement": "KABUL İŞLEMİ BAŞARISIZ",
+      "status_substatus": "ACCEPT_FAILED",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 127,
+      "status_statement": "RED ALICIDAN YANIT BEKLİYOR",
+      "status_substatus": "REJECT_WAIT_SYSTEM_RESPONSE",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 128,
+      "status_statement": "RED GİBDE YANIT BEKLİYOR",
+      "status_substatus": "REJECT_WAIT_GIB_RESPONSE",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 129,
+      "status_statement": "RED İŞLENİYOR",
+      "status_substatus": "REJECT_PROCESSING",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 130,
+      "status_statement": "REDDEDİLDİ",
+      "status_substatus": "REJECT_SUCCEED",
+      "action_to_taken": ""
+    },
+    {
+      "status_code": 131,
+      "status_statement": "RED İŞLEMİ BAŞARISIZ",
+      "status_substatus": "FAILED",
+      "action_to_taken": ""
+    }
+   ]

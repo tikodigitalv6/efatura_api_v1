@@ -1,0 +1,68 @@
+
+[
+{ "name": "GELİR VERGİSİ STOPAJI GV STOPAJI", "code": "0003" },
+{ "name": "KURUMLAR VERGİSİ STOPAJI KV STOPAJI", "code": "0011" },
+{ "name": "GERÇEK USULDE KATMA DEĞER VERGİSİ KDV GERCEK", "code": "0015" },
+{ "name": "BANKA MUAMELELERİ VERGİSİ BMV", "code": "0021" },
+{
+  "name": "KAYNAK KULLANIMI DESTEKLEME FONU KESİNTİSİ KKDF KESİNTİ",
+  "code": "0061"
+},
+{
+  "name": "PETROL VE DOĞALGAZ ÜRÜNLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 1.LİSTE",
+  "code": "0071"
+},
+{
+  "name": "KOLALI GAZOZ, ALKOLLÜ İÇEÇEKLER VE TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 3.LİSTE",
+  "code": "0073"
+},
+{
+  "name": "DAYANIKLI TÜKETİM VE DİĞER MALLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 4.LİSTE",
+  "code": "0074"
+},
+{
+  "name": "ALKOLLÜ İÇEÇEKLERE İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 3A LİSTE",
+  "code": "0075"
+},
+{
+  "name": "TÜTÜN MAMÜLLERİNE İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 3B LİSTE",
+  "code": "0076"
+},
+{
+  "name": "KOLALI GAZOZLARA İLİŞKİN ÖZEL TÜKETİM VERGİSİ ÖTV 3C LİSTE",
+  "code": "0077"
+},
+{ "name": "DAMGA VERGİSİ DAMGA V", "code": "1047" },
+{
+  "name": "5035 SAYILI KANUNA GÖRE DAMGA VERGİSİ 5035SKDAMGAV",
+  "code": "1048"
+},
+{
+  "name": "ELEKTRİK VE HAVAGAZI TÜKETİM VERGİSİ ELK.HAVAGAZ.TÜK.VER.",
+  "code": "4071"
+},
+{ "name": "ÖZEL İLETİŞİM VERGİSİ Ö.İLETİŞİM V", "code": "4080" },
+{
+  "name": "5035 SAYILI KANUNA GÖRE ÖZEL İLETİŞİM VERGİSİ 5035ÖZİLETV.",
+  "code": "4081"
+},
+{
+  "name": "PETROL VE DOĞALGAZ ÜRÜNLERİNE İLİŞKİN ÖTV TEVKİFATI PTR-DGZ ÖTV TEVKİFAT",
+  "code": "4171"
+},
+{ "name": "BORSA TESCİL ÜCRETİ BORSA TES.ÜC.", "code": "8001" },
+{ "name": "ENERJİ FONU ENERJİ FONU", "code": "8002" },
+{ "name": "TRT PAYI TRT PAYI", "code": "8004" },
+{ "name": "ELEKTRİK TÜKETİM VERGİSİ ELK.TÜK.VER.", "code": "8005" },
+{ "name": "TELSİZ KULLANIM ÜCRETİ TK KULLANIM", "code": "8006" },
+{ "name": "TELSİZ RUHSAT ÜCRETİ TK RUHSAT", "code": "8007" },
+{ "name": "ÇEVRE TEMİZLİK VERGİSİ ÇEV. TEM .VER.", "code": "8008" },
+{
+  "name": "4961 BANKA SİGORTA MUAMELELERİ VERGİSİ 4961BANKASMV",
+  "code": "9021"
+},
+{ "name": "MERA FONU MERA FONU", "code": "9040" },
+{
+  "name": "MOTORLU TAŞIT ARAÇLARINA İLİŞKİN ÖZEL TÜKETİM VERGİSİ (TESCİLE TABİ OLANLAR) ÖTV 2.LİSTE",
+  "code": "9077"
+}]

@@ -1,0 +1,37 @@
+[
+    {
+        "code":"101",
+        "name":"İhracat İstisnası"
+    },
+    {
+        "code":"102",
+        "name":"Diplomatik İstisna"
+    },
+    {
+        "code":"103",
+        "name":"Askeri Amaçlı İstisna"
+    },
+    {
+        "code":"104",
+        "name":"Petrol Arama Faaliyetlerinde Bulunanlara Yapılan Teslimler"
+    },{
+        "code":"105",
+        "name":"Uluslararası Anlaşmadan Doğan İstisna"
+    },
+    {
+        "code":"106",
+        "name":"Diğer İstisnalar"
+    },
+    {
+        "code":"107",
+        "name":"7/a Maddesi Kapsamında Yapılan Teslimler"
+    },
+    {
+        "code":"108",
+        "name":"Geçici 5. Madde Kapsamında Yapılan Teslimler"
+    },
+    {
+        "code":"151",
+        "name":"ÖTV - İstisna Olmayan Diğer"
+    }
+]

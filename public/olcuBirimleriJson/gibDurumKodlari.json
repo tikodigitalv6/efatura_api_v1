@@ -1,0 +1,182 @@
+[
+    {
+      "code": 1000,
+      "desk": "ZARF KUYRUĞA EKLENDİ",
+      "action_to_take": "Durum kodunun güncellenmesi beklenmelidir."
+    },
+    {
+      "code": 1100,
+      "desk": "ZARF İŞLENİYOR",
+      "action_to_take": "Durum kodunun güncellenmesi beklenmelidir."
+    },
+    {
+      "code": 1110,
+      "desk": "ZIP DOSYASI DEĞİL",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1111,
+      "desk": "ZARF ID UZUNLUĞU GEÇERSİZ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1120,
+      "desk": "ZARF ARŞİVDEN KOPYALANAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1130,
+      "desk": "ZIP AÇILAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1131,
+      "desk": "ZIP BİR DOSYA İÇERMELİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1132,
+      "desk": "XML DOSYASI DEĞİL",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1133,
+      "desk": "ZARF ID VE XML DOSYASININ ADI AYNI OLMALI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1140,
+      "desk": "DOKUMAN AYRIŞTIRILAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1141,
+      "desk": "ZARF ID YOK",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1142,
+      "desk": "ZARF ID VE ZIP DOSYASI ADI AYNI OLMALI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1143,
+      "desk": "GEÇERSİZ VERSİYON",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1150,
+      "desk": "SCHEMATRON KONTROL SONUCU HATALI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1160,
+      "desk": "XML SEMA KONTROLÜNDEN GEÇEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1161,
+      "desk": "İMZA SAHİBİ TCKN VKN ALINAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1162,
+      "desk": "İMZA KAYDEDİLEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1163,
+      "desk": "GÖNDERİLEN ZARF SİSTEMDE DAHA ÖNCE KAYITLI OLAN BİR FATURAYI İÇERMEKTEDİR",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1170,
+      "desk": "YETKİ KONTROL EDİLEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1171,
+      "desk": "GÖNDERİCİ BİRİM YETKİSİ YOK",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1172,
+      "desk": "POSTA KUTUSU YETKİSİ YOK",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1175,
+      "desk": "İMZA YETKİSİ KONTROL EDİLEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1176,
+      "desk": "İMZA SAHİBİ YETKİSİZ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1177,
+      "desk": "GEÇERSİZ İMZA",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1180,
+      "desk": "ADRES KONTROL EDİLEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1181,
+      "desk": "ADRES BULUNAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1182,
+      "desk": "KULLANICI EKLENEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1183,
+      "desk": "KULLANICI SİLİNEMEDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1190,
+      "desk": "SİSTEM YANITI HAZIRLANAMADI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1195,
+      "desk": "SİSTEM HATASI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1200,
+      "desk": "ZARF BAŞARIYLA İŞLENDİ",
+      "action_to_take": "Özel entegratörden gönderilen Belgede sorun tespit edilmedi. Sonra ki aşamalara geçilecek."
+    },
+    {
+      "code": 1210,
+      "desk": "DOKUMAN BULUNAN ADRESE GÖNDERİLEMEDİ",
+      "action_to_take": "GİB’in tekrar gönderme denemesi sonlandıktan sonra, 1215 durum kodu alınır ise belgeler yeniden gönderilmeli"
+    },
+    {
+      "code": 1215,
+      "desk": "DOKÜMAN GÖNDERİMİ BAŞARISIZ. TEKRAR GÖNDERME SONLANDI",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1220,
+      "desk": "HEDEFTEN SİSTEM YANITI GELMEDİ",
+      "action_to_take": "Bu durum kodundan sonra 1230 HEDEFTEN SİSTEM YANITI BAŞARISIZ GELDİ durum kodu alınır ise Belge yeniden gönderilmelidir."
+    },
+    {
+      "code": 1230,
+      "desk": "HEDEFTEN SİSTEM YANITI BAŞARISIZ GELDİ",
+      "action_to_take": "Belge yeniden gönderilmeli"
+    },
+    {
+      "code": 1300,
+      "desk": "BAŞARIYLA TAMAMLANDI",
+      "action_to_take": "Başarılı olan Belge aynı numara ile gönderilemez."
+    }
+   ]

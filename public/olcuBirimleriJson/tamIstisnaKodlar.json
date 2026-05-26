@@ -1,0 +1,119 @@
+[
+  {
+    "code": "301",
+    "name": "11/1-a Mal İhracatı"
+  },
+  {
+    "code": "302",
+    "name": "11/1-a Hizmet İhracatı"
+  },
+  {
+    "code": "303",
+    "name": "11/1-a Roaming Hizmetleri"
+  },
+  {
+    "code": "304",
+    "name": "13/a Deniz Hava ve Demiryolu Taşıma Araçlarının Teslimi İle İnşa, Tadil, Bakım ve Onarımları"
+  },
+  {
+    "code": "305",
+    "name": "13/b Deniz ve Hava Taşıma Araçları İçin Liman Ve Hava Meydanlarında Yapılan Hizmetler"
+  },
+  {
+    "code": "306",
+    "name": "13/c Petrol Aramaları ve Petrol Boru Hatlarının İnşa ve Modernizasyonuna İlişkin Yapılan Teslim ve Hizmetler"
+  },
+  {
+    "code": "307",
+    "name": "13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]"
+  },
+  {
+    "code": "308",
+    "name": "13/d Teşvikli Yatırım Mallarının Teslimi"
+  },
+  {
+    "code": "309",
+    "name": "13/e Liman Ve Hava Meydanlarının İnşası, Yenilenmesi Ve Genişletilmesi"
+  },
+  {
+    "code": "310",
+    "name": "13/f Ulusal Güvenlik Amaçlı Teslim ve Hizmetler"
+  },
+  {
+    "code": "311",
+    "name": "14/1 Uluslararası Taşımacılık"
+  },
+  {
+    "code": "312",
+    "name": "15/a Diplomatik Organ Ve Misyonlara Yapılan Teslim ve Hizmetler"
+  },
+  {
+    "code": "313",
+    "name": "15/b Uluslararası Kuruluşlara Yapılan Teslim ve Hizmetler"
+  },
+  {
+    "code": "314",
+    "name": "19/2 Usulüne Göre Yürürlüğe Girmiş Uluslar Arası Anlaşmalar Kapsamındaki İstisnalar"
+  },
+  {
+    "code": "315",
+    "name": "14/3 İhraç Konusu Eşyayı Taşıyan Kamyon, Çekici ve Yarı Romorklara Yapılan Motorin Teslimleri"
+  },
+  {
+    "code": "316",
+    "name": "11/1-a Serbest Bölgelerdeki Müşteriler İçin Yapılan Fason Hizmetler"
+  },
+  {
+    "code": "317",
+    "name": "17/4-s Engellilerin Eğitimleri, Meslekleri ve Günlük Yaşamlarına İlişkin AraçGereç ve Bilgisayar Programları"
+  },
+  {
+    "code": "318",
+    "name": "Geçici 29 3996 Sayılı Kanuna Göre Yap-İşlet-Devret Modeli Çerçevesinde Gerçekleştirilecek Projeler, 3359 Sayılı Kanuna Göre Kiralama Karşılığı Yaptırılan Sağlık Tesislerine İlişkin Projeler ve 652 Sayılı Kanun Hükmünde Kararnameye Göre Kiralama Karşılığı Yaptırılan Eğitim Öğretim Tesislerine İlişkin Projelere İlişkin Teslim ve Hizmetler"
+  },
+  {
+    "code": "319",
+    "name": "13/g Başbakanlık Merkez Teşkilatına Yapılan Araç Teslimleri"
+  },
+  {
+    "code": "320",
+    "name": "Geçici 16 (6111 sayılı K.) İSMEP Kapsamında İstanbul İl Özel İdaresi ne Bağlı Olarak Faaliyet Gösteren İstanbul Proje Koordinasyon Birimi ne Yapılacak Teslim ve Hizmetler"
+  },
+  {
+    "code": "321",
+    "name": "Geçici 26 Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) Temsilcilikleri ve Bu Teşkilatlara Bağlı Program, Fon ve Özel İhtisas  Kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) Resmi Kullanımları İçin Yapılacak Mal Teslimi ve Hizmet İfaları, Bunların Sosyal ve Ekonomik Yardım Amacıyla Bedelsiz Olarak Yapacakları Mal Teslimi ve Hizmet İfaları İle İlgili Bunlara Yapılan Mal Teslimi ve Hizmet İfaları 322 11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti)"
+  },
+  {
+    "code": "323",
+    "name": "13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi"
+  },
+  {
+    "code": "324",
+    "name": "13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri"
+
+  },
+  {
+    "code": "325",
+    "name": "13/ı Yem Teslimleri"
+  },
+  {
+    "code": "326",
+    "name": "13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi"
+  },
+  {
+    "code": "327",
+    "name": "13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi"
+  },
+  {
+    "code": "328",
+    "name": "13/i Konut veya İşyeri Teslimleri"
+  },
+  {
+    "code": "350",
+    "name": "Diğerleri"
+  },
+  {
+    "code": "351",
+    "name": "KDV - İstisna Olmayan Diğer"
+  }
+]

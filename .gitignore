@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup / scratch files (sunucuda biriken eski versiyonlar)
+*.save
+*.save.[0-9]
+*.bak
+*.tmp
+*_eski.*
+foo.txt
+
+# Eski/duplike controller dosyalari (eFaturaProd icin biriken)
+app/Controllers/Http/1SoapsController.ts
+app/Controllers/Http/2SoapsController.ts_
+app/Controllers/Http/1231SoapsController.ts
+app/Controllers/Http/_qSoapsController.ts
+app/Controllers/Http/6Mayis2026*
+app/Controllers/Http/____GibsController.ts
+app/Controllers/Http/GibsController.ts.save*
+
+# Auto-generated
+ace-manifest.json
+public/_xmlFiles/
+
+# Generated version file (build sirasinda olusur)
+version.json
+build/version.json
+
+# Claude Code (kullanici-ozel)
+.claude/
+
+# Runtime fatura XML dump'lari (loga benzer; hatali fatura denetim ciktilari)
+public/hataliXmlFiles/
+public/*.txt

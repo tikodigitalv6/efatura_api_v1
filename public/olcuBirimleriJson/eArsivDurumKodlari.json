@@ -1,0 +1,30 @@
+[
+  {
+    "status_code": 100,
+    "status_desc": "KUYRUĞA EKLENDİ"
+  },
+  {
+    "status_code": 105,
+    "status_desc": "TASLAK OLARAK EKLENDİ"
+  },
+  {
+    "status_code": 110,
+    "status_desc": "İŞLENİYOR"
+  },
+  {
+    "status_code": 120,
+    "status_desc": "RAPORLANACAK"
+  },
+  {
+    "status_code": 130,
+    "status_desc": "RAPORLANDI"
+  },
+  {
+    "status_code": 150,
+    "status_desc": "RAPORLANMADAN İPTAL EDİLDİ. RAPORLANMAYACAK."
+  },
+  {
+    "status_code": 200,
+    "status_desc": "FATURA ID BULUNAMADI"
+  }
+]
